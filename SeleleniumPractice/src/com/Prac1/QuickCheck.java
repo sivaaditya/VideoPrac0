@@ -6,6 +6,7 @@ public class QuickCheck {
 		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"//BrowserDrivers//geckodriver.exe");		
 		FirefoxDriver driver = new FirefoxDriver();
 		driver.navigate().to("http://google.com");
+		driver.navigate().to("http://google.com");
 	}
 }
 
